@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learn 100", "Learn 100", "{68C712BD-3810-450D-86F6-26487E6D6FA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Learn_0100\Application\Application.csproj", "{EF48472C-095A-45AC-B29C-51F51D27246B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{53CB79BE-7F28-4DB5-B8E7-3E74FD336612}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Readme.docx = docs\Readme.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF48472C-095A-45AC-B29C-51F51D27246B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF48472C-095A-45AC-B29C-51F51D27246B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF48472C-095A-45AC-B29C-51F51D27246B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF48472C-095A-45AC-B29C-51F51D27246B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF48472C-095A-45AC-B29C-51F51D27246B} = {68C712BD-3810-450D-86F6-26487E6D6FA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {310CC8EA-7BE3-4219-AD93-A04DBAF43554}
+	EndGlobalSection
+EndGlobal
