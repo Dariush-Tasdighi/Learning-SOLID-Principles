@@ -10,11 +10,11 @@ public class Bird : object
 	{
 	}
 
-	public void Eat()
+	public virtual void Eat()
 	{
 	}
 
-	public void Fly()
+	public virtual void Fly()
 	{
 	}
 }
@@ -36,5 +36,10 @@ public class Ostrich : Bird
 {
 	public Ostrich() : base()
 	{
+	}
+
+	public override void Fly()
+	{
+		throw new System.NotImplementedException();
 	}
 }

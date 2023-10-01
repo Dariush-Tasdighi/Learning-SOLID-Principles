@@ -111,7 +111,8 @@ public class OrderNotifier : object, IOrderNotifier
 
 public class OrderService : object
 {
-	public OrderService(Order order, IOrderValidator orderValidator,
+	public OrderService
+		(Order order, IOrderValidator orderValidator,
 		IOrderSaver orderSaver, IOrderNotifier orderNotifier) : base()
 	{
 		Order = order;
